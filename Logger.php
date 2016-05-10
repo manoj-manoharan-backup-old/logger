@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Facade;
 
-class Tester extends Facade
+class Logger extends Facade
 {
     protected static function getFacadeAccessor()
     {
