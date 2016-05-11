@@ -1,4 +1,4 @@
-<?php namespace yogeswaranmanoharan\logger;
+<?php namespace yogeshwaranmanoharan\logger;
 
 use Illuminate\Support\Facades\Facade;
 
