@@ -1,4 +1,4 @@
-<?php namespace yogeshwaranmanoharan\logger;
+<?php namespace Logging;
 
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
