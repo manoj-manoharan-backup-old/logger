@@ -29,7 +29,7 @@ class Log{
 
     private function setHandler($level)
     {
-        return $this->log->pushHandler(new StreamHandler($this->path .'/'. $level . '.log' , $this->levels[$level]));
+        return $this->log->pushHandler(new StreamHandler($this->path .'/logger.log' , $this->levels[$level]));
     }
 
     public function emergency($message, $context = array())
