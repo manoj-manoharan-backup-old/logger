@@ -8,8 +8,8 @@
 
     },
     "require-dev": {
-        "illuminate/support" : "~5.0",
-        "monolog/monolog" : "~2.0"
+        "illuminate/support" : "dev-master",
+        "monolog/monolog" : "dev-master"
     },
     "authors": [
         {
