@@ -8,8 +8,9 @@
 
     },
     "require-dev": {
-        "illuminate/support" : "dev-master",
-        "monolog/monolog" : "dev-master"
+        "illuminate/contracts" : ">=5.0.x-dev",
+	"illuminate/support" : ">=5.0.x-dev",
+        "monolog/monolog" : ">=1.x-dev"
     },
     "autoload": {
         "psr-4": {
