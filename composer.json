@@ -1,0 +1,25 @@
+{
+    "name": "yogeshwaranmanoharan/logger",
+    "type": "library",
+    "description": "Log management library.",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+	"monolog/monolog" : "^1.19",
+	"illuminate/support" : ">=5.0.x-dev",
+	"illuminate/contracts" : ">=5.0.x-dev"
+
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Logging\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yogeshwaran Manoharan"
+        }
+    ]
+}
